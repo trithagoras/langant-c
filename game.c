@@ -8,8 +8,8 @@
 int map[SIZE][SIZE];
 
 // Grows chaotically. It is not known whether this ant ever produces a highway.
-//int rules[] = {1, -1, 1};
-//int colors[] = {BLACK_INDEX, MAGENTA_INDEX, YELLOW_INDEX};
+int rules[] = {1, -1, 1};
+int colors[] = {BLACK_INDEX, MAGENTA_INDEX, YELLOW_INDEX};
 
 // Grows symmetrically.
 //int rules[] = {1, -1, -1, 1};
@@ -20,8 +20,8 @@ int map[SIZE][SIZE];
 //int colors[] = {BLACK_INDEX, MAGENTA_INDEX, YELLOW_INDEX, GREEN_INDEX, RED_INDEX, ORANGE_INDEX, CYAN_INDEX, BLUE_INDEX, WHITE_INDEX};
 
 // Langton's Ant initial implementation
-int rules[] = {-1, 1};
-int colors[] = {BLACK_INDEX, WHITE_INDEX};
+//int rules[] = {-1, 1};
+//int colors[] = {BLACK_INDEX, WHITE_INDEX};
 
 int rule_count = sizeof(rules) / sizeof(int);
 

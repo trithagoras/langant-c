@@ -2,6 +2,7 @@
 An ncurses Langton's Ant implementation made in C
 
 ![image](res/3.png)
+![image](res/4.gif)
 ![image](res/1.png)
 ![image](res/2.png)
 
