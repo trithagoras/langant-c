@@ -13,7 +13,6 @@
 
 // Amount of rules being played with (e.g. basic implementation = LR = 2 rules)
 extern int rule_count;
-//#define RULES 4
 
 // Delay in microseconds between each evolution.
 extern int game_delay;
